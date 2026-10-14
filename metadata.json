@@ -1,0 +1,6 @@
+{
+  "name": "CricketVerse",
+  "description": "Every Match. Every Legend. Every Story. Complete cricket guide, 12 in-depth blogs, legendary player profiles, tournament histories, rules, and records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

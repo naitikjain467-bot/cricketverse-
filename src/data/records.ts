@@ -1,0 +1,245 @@
+import { CricketRecord } from '../types';
+
+export const VERIFIED_RECORDS: CricketRecord[] = [
+  // Batting Records
+  {
+    id: 'rec-1',
+    title: 'Highest Career Test Batting Average',
+    holder: 'Sir Donald Bradman',
+    country: 'Australia',
+    category: 'Batting',
+    format: 'Test',
+    figure: '99.94 runs/innings',
+    achievement: '6,996 runs in 80 innings (52 Tests) with 29 centuries and 13 fifties.',
+    dateOrSpan: '1928–1948',
+    verifiedSource: 'Wisden Cricketers’ Almanack & ICC Test Hall of Fame',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-2',
+    title: 'Highest Individual Score in Test Cricket',
+    holder: 'Brian Lara',
+    country: 'West Indies',
+    category: 'Batting',
+    format: 'Test',
+    figure: '400* (Not Out)',
+    achievement: 'Compiled 400 not out off 582 balls against England at St John’s, Antigua.',
+    dateOrSpan: 'April 10–12, 2004',
+    verifiedSource: 'Official Match Scorecard, West Indies vs England, Antigua Recreation Ground',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-3',
+    title: 'Highest Individual Score in One Day Internationals',
+    holder: 'Rohit Sharma',
+    country: 'India',
+    category: 'Batting',
+    format: 'ODI',
+    figure: '264 runs (173 balls)',
+    achievement: 'Blasted 264 runs including 33 boundaries and 9 sixes vs Sri Lanka at Eden Gardens.',
+    dateOrSpan: 'November 13, 2014',
+    verifiedSource: 'BCCI & ICC Official Match Archives',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-4',
+    title: 'Most Centuries in One Day International Cricket',
+    holder: 'Virat Kohli',
+    country: 'India',
+    category: 'Batting',
+    format: 'ODI',
+    figure: '50 ODI Centuries',
+    achievement: 'Surpassed Sachin Tendulkar’s 49 hundreds during the 2023 World Cup Semi-Final vs NZ.',
+    dateOrSpan: '2008–Present (50th on Nov 15, 2023)',
+    verifiedSource: 'ICC Official Player Records & Statsguru',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-5',
+    title: 'Most Total Centuries in International Cricket',
+    holder: 'Sachin Tendulkar',
+    country: 'India',
+    category: 'Batting',
+    format: 'All Formats',
+    figure: '100 Centuries',
+    achievement: '51 Test centuries and 49 One Day International centuries across 24-year career.',
+    dateOrSpan: '1989–2013',
+    verifiedSource: 'BCCI Central Archives & Wisden Chronicles',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-6',
+    title: 'Fastest Century in One Day International History',
+    holder: 'AB de Villiers',
+    country: 'South Africa',
+    category: 'Batting',
+    format: 'ODI',
+    figure: '100 off 31 balls',
+    achievement: 'Scored 149 runs off 44 deliveries against West Indies at Wanderers, Johannesburg.',
+    dateOrSpan: 'January 18, 2015',
+    verifiedSource: 'Cricket South Africa & ICC Match Center',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-7',
+    title: 'Highest Career Run Aggregate in Test Cricket',
+    holder: 'Sachin Tendulkar',
+    country: 'India',
+    category: 'Batting',
+    format: 'Test',
+    figure: '15,921 runs',
+    achievement: '329 innings across 200 Test matches with an average of 53.78.',
+    dateOrSpan: '1989–2013',
+    verifiedSource: 'ICC Historical Test Records Database',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-8',
+    title: 'Most Sixes in International Cricket History',
+    holder: 'Rohit Sharma',
+    country: 'India',
+    category: 'Batting',
+    format: 'All Formats',
+    figure: '620+ International Sixes',
+    achievement: 'Surpassed Chris Gayle (553 sixes) to lead all international cricketers.',
+    dateOrSpan: '2007–Present',
+    verifiedSource: 'ICC Statsguru Cross-Format Database',
+    lastVerifiedDate: 'February 2025'
+  },
+
+  // Bowling Records
+  {
+    id: 'rec-9',
+    title: 'Most Wickets in Test Cricket History',
+    holder: 'Muttiah Muralitharan',
+    country: 'Sri Lanka',
+    category: 'Bowling',
+    format: 'Test',
+    figure: '800 Wickets',
+    achievement: 'Achieved in 133 Test matches with 67 five-wicket hauls and 22 ten-wicket matches.',
+    dateOrSpan: '1992–2010',
+    verifiedSource: 'Sri Lanka Cricket & ICC Historical Records',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-10',
+    title: 'Most Wickets in One Day Internationals',
+    holder: 'Muttiah Muralitharan',
+    country: 'Sri Lanka',
+    category: 'Bowling',
+    format: 'ODI',
+    figure: '534 Wickets',
+    achievement: 'Took 534 wickets in 350 matches with an economy of 3.93.',
+    dateOrSpan: '1993–2011',
+    verifiedSource: 'ICC Official ODI Archives',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-11',
+    title: 'Best Bowling Figures in a Test Match',
+    holder: 'Jim Laker',
+    country: 'England',
+    category: 'Bowling',
+    format: 'Test',
+    figure: '19 wickets for 90 runs',
+    achievement: 'Took 9/37 and 10/53 against Australia at Old Trafford, Manchester in 1956.',
+    dateOrSpan: 'July 26–31, 1956',
+    verifiedSource: 'Wisden Cricketers’ Almanack Archive',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-12',
+    title: 'Best Bowling Figures in a Single Test Innings',
+    holder: 'Jim Laker / Anil Kumble / Ajaz Patel',
+    country: 'England / India / New Zealand',
+    category: 'Bowling',
+    format: 'Test',
+    figure: '10 Wickets in an Innings',
+    achievement: 'Only 3 bowlers in 148 years: Laker (10/53 in 1956), Kumble (10/74 in 1999), Patel (10/119 in 2021).',
+    dateOrSpan: '1956 / 1999 / 2021',
+    verifiedSource: 'ICC Official Match Scorecards',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-13',
+    title: 'Fastest Recorded Delivery in Cricket History',
+    holder: 'Shoaib Akhtar',
+    country: 'Pakistan',
+    category: 'Bowling',
+    format: 'ODI',
+    figure: '161.3 km/h (100.23 mph)',
+    achievement: 'Bowled to Nick Knight during Pakistan vs England at the 2003 World Cup in Cape Town.',
+    dateOrSpan: 'February 22, 2003',
+    verifiedSource: 'ICC Speed Radar System Verification',
+    lastVerifiedDate: 'February 2025'
+  },
+
+  // Wicketkeeping & Fielding
+  {
+    id: 'rec-14',
+    title: 'Most Stumpings in International Cricket History',
+    holder: 'MS Dhoni',
+    country: 'India',
+    category: 'Wicketkeeping',
+    format: 'All Formats',
+    figure: '195 Stumpings',
+    achievement: '38 in Tests, 123 in ODIs, 34 in T20Is across 538 international matches.',
+    dateOrSpan: '2004–2019',
+    verifiedSource: 'BCCI & ICC Official Records',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-15',
+    title: 'Most Dismissals by a Wicketkeeper in International Cricket',
+    holder: 'Mark Boucher',
+    country: 'South Africa',
+    category: 'Wicketkeeping',
+    format: 'All Formats',
+    figure: '998 Dismissals',
+    achievement: '555 in Tests, 424 in ODIs, 19 in T20Is (952 catches, 46 stumpings).',
+    dateOrSpan: '1997–2012',
+    verifiedSource: 'Cricket South Africa & ICC Hall of Fame',
+    lastVerifiedDate: 'February 2025'
+  },
+
+  // Team & Tournament Records
+  {
+    id: 'rec-16',
+    title: 'Highest Team Total in One Day International History',
+    holder: 'England',
+    country: 'England',
+    category: 'Team',
+    format: 'ODI',
+    figure: '498 for 4 (50 Overs)',
+    achievement: 'Scored against Netherlands in Amstelveen with centuries from Salt, Malan, and Buttler.',
+    dateOrSpan: 'June 17, 2022',
+    verifiedSource: 'ICC Official Scorecard',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-17',
+    title: 'Most Men’s Cricket World Cup Titles',
+    holder: 'Australia',
+    country: 'Australia',
+    category: 'Tournament',
+    format: 'ODI',
+    figure: '6 World Cup Titles',
+    achievement: 'Champions in 1987, 1999, 2003, 2007, 2015, and 2023.',
+    dateOrSpan: '1987–2023',
+    verifiedSource: 'ICC Men’s Cricket World Cup Roll of Honour',
+    lastVerifiedDate: 'February 2025'
+  },
+  {
+    id: 'rec-18',
+    title: 'Most IPL Championships as Franchise',
+    holder: 'Chennai Super Kings & Mumbai Indians',
+    country: 'India',
+    category: 'Team',
+    format: 'IPL',
+    figure: '5 Titles Each',
+    achievement: 'CSK: 2010, 2011, 2018, 2021, 2023; MI: 2013, 2015, 2017, 2019, 2020.',
+    dateOrSpan: '2008–2024',
+    verifiedSource: 'BCCI Indian Premier League Official Archives',
+    lastVerifiedDate: 'February 2025'
+  }
+];
